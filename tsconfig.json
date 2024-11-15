@@ -1,0 +1,60 @@
+{
+  // "compilerOptions": {
+  //   "lib": ["dom", "dom.iterable", "esnext"],
+  //   "allowJs": true,
+  //   "skipLibCheck": true,
+  //   "strict": true,
+  //   "noEmit": true,
+  //   "esModuleInterop": true,
+  //   "module": "esnext",
+  //   "moduleResolution": "bundler",
+  //   "resolveJsonModule": true,
+  //   "isolatedModules": true,
+  //   "jsx": "preserve",
+  //   "incremental": true,
+  //   "typeRoots": ["node_modules/@types"],
+  //   "plugins": [
+  //     {
+  //       "name": "next"
+  //     }
+  //   ],
+  //   "paths": {
+  //     "@/*": ["./src/*"]
+  //   }
+  // },
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "module": "esnext",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+, "src/components/NotificationComponent.tsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
